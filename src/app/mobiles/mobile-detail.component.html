@@ -1,0 +1,36 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        Details of the mobile  {{mobile.name}}
+    </div>
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-2'>Id</div>
+            <div class='col-md-4'>
+                <h1>{{mobile.msId}}</h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-2'>name</div>
+            <div class='col-md-4'>
+                <h1>{{mobile.name}}</h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-2'>model</div>
+            <div class='col-md-4'>
+                <h1>{{mobile.model}}</h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-2'>release date</div>
+            <div class='col-md-4'>
+                <h1>{{mobile.releaseDate}}</h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-4'>
+                <button (click)="navigateBack()" class="btn-primary">Back</button>
+            </div>
+        </div>
+    </div>
+</div>
